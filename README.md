@@ -1,5 +1,5 @@
 # samples-doc_transponders_unix / UNIX DOC sample codes for RFID transponders
-This repository contains sample codes for handling both HF and UHF transponders on Android devices using a Micro-Sensys RFID reader
+This repository contains sample codes for handling both HF and UHF transponders on devices running UNIX OS using a Micro-Sensys RFID reader
 
 [Test LINK: ](../doc/communication-modes/spc)
 //TODO Add link See "..."
@@ -7,7 +7,7 @@ This repository contains sample codes for handling both HF and UHF transponders 
 ## Requirements
 * IDE (eclipse IDE / CodeBlocks) or any source code editor
 * Micro-Sensys RFID reader
-* TELID®200 sensor transponders
+* Any HF or UHF transponder
 
 ## Implementation
 This code shows how to read/write transponders in UNIX systems. 
