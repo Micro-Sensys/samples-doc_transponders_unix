@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1580291363 source:e:\source\codeblocks\sample3000prot\main.cpp
+	<iostream>
+	"Functions3000prot.h"
+	"ConsoleFlow.h"
+
+1580291363 ow.h"
+
+1580224550 source:e:\source\codeblocks\sample3000prot\portfunctions\portconnection.cpp
+	"PortConnection.h"
+
+1580224550 ction.h"
+
+1580224474 e:\source\codeblocks\sample3000prot\portfunctions\portconnection.h
+	<windows.h>
+	<winbase.h>
+
+1580224474 >
+
+1580291307 source:e:\source\codeblocks\sample3000prot\functions3000prot.cpp
+	"Functions3000prot.h"
+
+1580291307 3000prot.h"
+
+1580291297 e:\source\codeblocks\sample3000prot\functions3000prot.h
+	"PortConnection.h"
+	"CRC16.h"
+
+1580291297 
+
+1562334404 e:\source\codeblocks\sample3000prot\crc16.h
+
+1580285370 e:\source\codeblocks\sample3000prot\consoleflow.h
+
+1581676708 source:/home/designext/Source/CodeBlocks/Sample3000prot/main.cpp
+	<iostream>
+	"Functions3000prot.h"
+	"ConsoleFlow.h"
+
+1581676533 /home/designext/Source/CodeBlocks/Sample3000prot/Functions3000prot.h
+	<memory.h>
+	"PortConnection.h"
+	"CRC16.h"
+
+1581675717 /home/designext/Source/CodeBlocks/Sample3000prot/PortFunctions/PortConnection.h
+	<stdio.h>
+	<chrono>
+	<fcntl.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+
+1562334404 /home/designext/Source/CodeBlocks/Sample3000prot/CRC16.h
+
+1580285370 /home/designext/Source/CodeBlocks/Sample3000prot/ConsoleFlow.h
+
+1581675937 source:/home/designext/Source/CodeBlocks/Sample3000prot/PortFunctions/PortConnection.cpp
+	"PortConnection.h"
+
+1581676608 source:/home/designext/Source/CodeBlocks/Sample3000prot/Functions3000prot.cpp
+	"Functions3000prot.h"
+
