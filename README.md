@@ -13,16 +13,10 @@ This code shows how to read/write transponders in UNIX systems.
 > The recommended way is to use the Java library available (See [Useful Links](#Useful-Links)). 
 > If this is not possible, there are some samples available on how to communicate with our RFID readers using low level protocol. This protocol is only available on request. [Contact](#Contact) us with your requirements and we will try to support you.
 
-## Steps
->> **TODO: in progress**
-
-### Special Hints for Linux
-* Device has to be configured in USB VCP mode (ask microsensys for HowTo)
-	* To get VCP port name use:	
-		> dmesg | grep FTDI
-* To be able to communicate with RFID reader, the user must be part of the group "dialout".
-	* To add the user to the group use:
-		> sudo gpasswd --add [username] dialout
+## Available sample codes
+This repository contains subfolders for different languages
+ * [Java](java)
+ * [Low level](lowlevel)
 
 ## Useful Links
 * [JAR Library and API documentation](https://www.microsensys.de/downloads/DevSamples/Libraries/UNIX/microsensysRFID%20-%20jar%20library/)
