@@ -1,4 +1,3 @@
-# TODO
 # Low level DOC sample code for RFID transponders
 This sample code is for handling both HF and UHF transponders on devices running UNIX OS using a Micro-Sensys RFID reader.
 Sample codes located in this folder are implemented communicating directly via serial interface with the RFID reader using the supported communication protocol 
