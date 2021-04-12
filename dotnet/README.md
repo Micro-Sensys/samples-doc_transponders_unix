@@ -33,7 +33,7 @@ Import this project into your IDE, choose a project and launch it. First in the 
 
 ## Useful Links
 * [NuGet Package page](https://www.nuget.org/packages/Microsensys.iIDReaderLibrary.DocInterfaceControl/)
-* [API documentation](https://www.microsensys.de/downloads/DevSamples/Libraries/UNIX/)
+* [API documentation](https://www.microsensys.de/downloads/DevSamples/Libraries/UNIX/iIDReaderLibrary%20-%20.NET%20library/)
 * Check what is possible using our iID®DEMOsoft for PC! Download it using [this link](https://www.microsensys.de/downloads/CDContent/Install/iID%c2%ae%20DEMOsoft.zip)
 * GitHub *documentation* repository: [Micro-Sensys/documentation](https://github.com/Micro-Sensys/documentation)
 	* [communication-modes/doc](https://github.com/Micro-Sensys/documentation/tree/master/communication-modes/doc)
