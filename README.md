@@ -3,16 +3,6 @@ This repository contains sample codes for handling both HF and UHF transponders 
 
 > For details on DOC communication check [Useful Links](#Useful-Links) 
 
-## Requirements
-* IDE 
-* Micro-Sensys RFID reader
-* Any HF or UHF transponder
-
-## Implementation
-This code shows how to read/write transponders in UNIX systems. 
-> The recommended way is to use the Java library available (See [Useful Links](#Useful-Links)). 
-> If this is not possible, there are some samples available on how to communicate with our RFID readers using low level protocol. This protocol is only available on request. [Contact](#Contact) us with your requirements and we will try to support you.
-
 ## Available sample codes
 This repository contains subfolders for different languages
  * [.NET](dotnet)
@@ -21,7 +11,7 @@ This repository contains subfolders for different languages
  * [Low level](lowlevel)
  
 ## Useful Links
-* Check what is possible using our iID®DEMOsoft for PC! Download it using [this link](https://www.microsensys.de/downloads/CDContent/Install/iID%c2%ae%20DEMOsoft.zip)
+* Check what is possible using our iID®DEMOsoft for PC! Download it using [this link](https://www.microsensys.de/downloads/SW_Install/iID%c2%aeDEMOsoft2020/Setup%20iID%20DEMOsoft%202020.exe)
 * GitHub *documentation* repository: [Micro-Sensys/documentation](https://github.com/Micro-Sensys/documentation)
 	* [communication-modes/doc](https://github.com/Micro-Sensys/documentation/tree/master/communication-modes/doc)
 
