@@ -17,6 +17,8 @@ For demo purposes, a python console sample code and a HTML website with JavaScri
 > Class information is available under API documentation. See [Useful Links](#Useful-Links)
 
 ## Steps 
+First of all, make sure *iID®service* is running on your machine (or machine where the RFID reader is connected and accessible over the network)
+
 ### Python console
  1. Import this project into your IDE. 
  2. First make sure the communication port name for the RFID reader (for example */dev/ttyUSB0*) is selected. 
