@@ -1,6 +1,6 @@
 # RESTful DOC sample code for RFID transponders
 Here you can find different samples for handling both HF and UHF transponders on devices running UNIX OS using a Micro-Sensys RFID reader.
-Sample codes located in this folder are implemented accessing our iID®service (using RESTful communicating) 
+Sample codes located in this folder are implemented accessing our *iID®service* (using RESTful communicating) 
 
 > For details on DOC communication check [Useful Links](#Useful-Links) 
 
@@ -16,12 +16,13 @@ For demo purposes, a python console sample code and a HTML website with JavaScri
 
 > Class information is available under API documentation. See [Useful Links](#Useful-Links)
 
-## Steps (python console)
+## Steps 
+### Python console
  1. Import this project into your IDE. 
  2. First make sure the communication port name for the RFID reader (for example */dev/ttyUSB0*) is selected. 
  3. Then use the console *menu* to select the function to call
 
-## Steps (HTML+JavaScript)
+### JavaScript (+HTML)
  1. First make sure the communication port name for the RFID reader (for example */dev/ttyUSB0*) is selected using *interface.html*
  2. Open any other HTML files and select the function to call
 
