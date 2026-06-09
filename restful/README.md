@@ -1,28 +1,32 @@
-# Java DOC sample code for RFID transponders
-This sample code is for handling both HF and UHF transponders on devices running UNIX OS using a Micro-Sensys RFID reader
+# RESTful DOC sample code for RFID transponders
+Here you can find different samples for handling both HF and UHF transponders on devices running UNIX OS using a Micro-Sensys RFID reader.
+Sample codes located in this folder are implemented accessing our *iID®service* (using RESTful communicating) 
 
 > For details on DOC communication check [Useful Links](#Useful-Links) 
 
+
 ## Requirements
-* Java IDE (for example eclipse IDE)
+* IDE (for example Visual Studio Code)
 * Micro-Sensys RFID reader (either Bluetooth or module)
 * Any HF or UHF transponder
 
 ## Implementation
-This code shows how to use **RFIDFunctions** class to read/write transponders. 
-Using this class the communication port can be open/closed. Once the communication with RFID reader is established, the different functions to read/write can be tested.
+This code shows how to use **iID®service** and its RESTful API to read/write transponders. 
+For demo purposes, a python console sample code and a HTML website with JavaScript code is provided. There are different projects available that show all the different functions provided.
 
 > Class information is available under API documentation. See [Useful Links](#Useful-Links)
 
-## Steps
-Just import this project into your Java IDE and run the SampleApp.
+## Steps 
+First of all, make sure *iID®service* is running on your machine (or machine where the RFID reader is connected and accessible over the network)
 
-![Screenshot](screenshot/SampleCode_Java.png)
+### Python console
+ 1. Import this project into your IDE. 
+ 2. First make sure the communication port name for the RFID reader (for example */dev/ttyUSB0*) is selected. 
+ 3. Then use the console *menu* to select the function to call
 
- 1. Select the reader type using the RadioButtons: Port type (USB/Bluetooth/BLE) and interface type (HF/UHF/LEGIC)
- 2. Write the name of the device you wish to connect to (partial names are also allowed, for example: "PEN")
- 3. Press *CONNECT*. Once the connect process finishes, the result will be shown in the EditText on the bottom side
- 4. Use the buttons to perform the read/write operations. Results will be shown in EditText on the bottom side
+### JavaScript (+HTML)
+ 1. First make sure the communication port name for the RFID reader (for example */dev/ttyUSB0*) is selected using *interface.html*
+ 2. Open any other HTML files and select the function to call
 
 ### Special Hints for Linux
 * Device has to be configured in USB VCP mode (ask microsensys for HowTo)
@@ -33,7 +37,7 @@ Just import this project into your Java IDE and run the SampleApp.
 		> sudo gpasswd --add [username] dialout
 
 ## Useful Links
-* [JAR Library and API documentation](https://www.microsensys.de/downloads/DevSamples/Libraries/UNIX/microsensysRFID%20-%20jar%20library/)
+* [API documentation](https://www.microsensys.de/downloads/DevSamples/Libraries/UNIX/iIDservice%20-%20RESTful)
 * Check what is possible using our iID®DEMOsoft for PC! Download it using [this link](https://www.microsensys.de/downloads/SW_Install/iID%c2%aeDEMOsoft2020/Setup%20iID%20DEMOsoft%202020.exe)
 * GitHub *documentation* repository: [Micro-Sensys/documentation](https://github.com/Micro-Sensys/documentation)
 	* [communication-modes/doc](https://github.com/Micro-Sensys/documentation/tree/master/communication-modes/doc)
